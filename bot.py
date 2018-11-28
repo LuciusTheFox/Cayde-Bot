@@ -5,7 +5,7 @@ from itertools import cycle
 from discord.ext.commands import Bot
 
 BOT_PREFIX = "."
-TOKEN = "NTA2MzQ0OTY0NTQ5MjQ2OTk2.Drgyog.2zbQfIp-pAU4bfc1RVc7coACTD8"
+TOKEN = ''
 client = Bot(command_prefix=BOT_PREFIX)
 
 extensions = ['Events', 'Fun', 'Roller']
