@@ -1,4 +1,5 @@
 # Work with Python 3.6
+import os
 import asyncio
 import discord
 from itertools import cycle
