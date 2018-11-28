@@ -5,7 +5,6 @@ from itertools import cycle
 from discord.ext.commands import Bot
 
 BOT_PREFIX = "."
-TOKEN = ''
 client = Bot(command_prefix=BOT_PREFIX)
 
 extensions = ['Events', 'Fun', 'Roller']
@@ -73,4 +72,4 @@ if __name__ == '__main__':
 
     client.loop.create_task(list_servers())
     client.loop.create_task(change_status())
-    client.run(TOKEN)
+    client.run(os.getenv('TOKEN'))
